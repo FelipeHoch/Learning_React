@@ -1,9 +1,15 @@
-function MaterialButton() {
+
+interface IMaterialButtonProps {
+    label: string;
+}
+
+const MaterialButton = (props: IMaterialButtonProps) => {
     return (
         <button>
-            Material Button
+            {props.label}
         </button>
     );
-}
+};
+
 
 export default MaterialButton;
