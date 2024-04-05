@@ -1,9 +1,5 @@
-import './App.css';
+import AppTSX from "./App.tsx";
 
-function App() {
-  return (
-    <h1>Hello World</h1>
-  );
-}
+let App = null;
 
-export default App;
+export default App = AppTSX;
